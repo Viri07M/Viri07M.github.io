@@ -1,0 +1,301 @@
+@charset "utf-8";
+body header {
+    height: 400px;
+    background-color: #456125;
+    color: #F7ECDD;
+    padding-top: 150px;
+}
+body header  , body nav, body main, body footer{
+    width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+body nav {
+    background-color: #272A24;
+    height: 80px;
+    color: #F7ECDD;
+}
+body main {
+	padding: 50px;
+    background-color: #71A04D;
+}
+body main section {
+    width: 800px;
+    background-color: #F7ECDD;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+	padding: 50PX;
+    margin-right: auto;
+	height: auto;
+}
+section ul li{
+		list-style-type: square;
+	}	
+main section h2{
+	padding-bottom: 20px;	
+	}
+body footer{
+	background-color: #456125;
+    height: 100px;
+    padding-top: 40px;		
+	}   
+* {
+	padding: 0;
+	margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body header h1 {
+    width: 800px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+	font-size: 72px;
+}
+body footer h6{
+	text-align: center;
+	font-size: 18px;
+	color: #F7ECDD;
+	height: 20px;
+	}
+section ul, section ol{
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 10px;
+	}
+#lista_1 li{
+	list-style-type: lower-alpha;
+	}
+.lista_2 li{
+    list-style-image: url(medios/iconos/flor%20(1).png);
+    list-style-image: url(medios/iconos/floee.png);
+	}
+#menu li {
+    list-style-type: none;
+    width: 150px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    display: inline-block;
+    margin-top: -17px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#menu {
+    margin-left: auto;
+    margin-right: auto;
+}
+</style>
+</head>
+
+<body>
+<header>
+  <h1>Listas en html&nbsp;</h1>
+</header>
+<nav>
+<ul id="menu">
+	<li><a href="html/formatos de texto.html">Formatos de texto</a></li>
+	<li>Enlace 2</li>
+	<li>Enlace 3</li>
+	<li>Enlace 4</li>
+	<li>Enlace 5&nbsp;</li>
+</ul>	
+</nav>main section table {
+}
+main section table {
+    height: 26px;
+    margin-top: 28px;
+    margin-left: auto;
+    margin-right: auto;
+}
+main section table_2 {
+    font-size: 18px;
+}
+
+#tabla_2   {
+    width: 600px;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 31px;
+}
+thead tr th {
+    background-color: #189A67;
+}
+tbody tr td {
+    margin-top: -9px;
+}
+
+
+#tabla_2 th {
+    font-size: 24px;
+    height: 66px;
+}
+#tabla_2 td {
+    padding-top: 9px;
+    background-color: #56B8A1;
+}
+
+
+
+@media screen{
+}
+#tabla_3 {
+    border-collapse: collapse;
+    margin-top: 31px;
+}
+#tabla_4 {
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+#tabla_4 th {
+    background-color: #1D3A5E;
+    color: #FFFFFF;
+}
+
+#tabla_4 td   , #tabla_4 th{
+    border-style: solid;
+    border-color: #FFFFFF;
+    text-align: center;
+}
+
+#tabla_4 td:nth-child(even)       {
+    background-color: #6E9AC4;
+    width: 100px;
+}
+#tabla_4 td:nth-child(odd) {
+    width: 100px;
+}
+
+#tabla_4 td:nth-child(odd)  {
+    background-color: #189A67;
+    color: #FFFFFF;
+    width: 0px;
+    height: 3px;
+    margin-top: 17px;
+}
+
+
+
+#tabla_3 thead tr   {
+    background-color: #CCF8F6;
+    color: #FFFFFF;
+}
+
+#tabla_3 tbody tr:nth-child(even)  {
+    background-color: #458432;
+}
+#tabla_3 tbody tr:nth-child(odd) {
+    background-color: #4B9392;
+    color: #FFFFFF;
+}
+#tabla_4 {
+}
+#tabla_5 {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 31px;
+    background-color: #A9D5AC;
+}
+#tabla_5 tr:hover {
+    background-color: #35346F;
+    color: #FFFFFF;
+}
+
+#tabla_5 th, #tabla_5 td {
+    height: 50px;
+}
+#tabla_6 {
+    width: 1200px;
+    border-collapse: collapse;
+    background-color: #C2E4F3;
+}
+#seccion_1 {
+    overflow-x: scroll;
+}
+#tabla_receptiva {
+    overflow-x: scroll;
+    width: 568px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imagen_1 {
+    width: 50%;
+    height: 50%;
+    margin-top: 20px;
+    margin-left: 18px;
+}
+.imagen_2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: 12px solid #266716;
+}
+.imagen_3 {
+    width: 128px;
+    height: auto;
+    padding-right: 10px;
+    padding-left: 5px;
+}
+.img_fizq {
+    float: left;
+}
+.img_fder {
+    float: right;
+}
+.parrafo_img {
+    padding: 10px;
+    margin: 10px;
+}
+.imagen_fondo {
+    background-image: url(../medios/imagenes/cat-looking-at-butterfly-digital-art-w5.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: 0 46%;
+    background-attachment: fixed;
+}
+.imagen_4 {
+    width: 30%;
+    height: auto;
+    margin: 10px;
+}
+.filtro_grayscale {
+    filter: grayscale(100%);
+}
+.filtro_brightness {
+    filter: brightness(160%);
+}
+.filtro_contraste {
+    filter: contrast(150%);
+}
+.filtro_invert {
+    filter: invert(100%);
+}
+.filtro_saturate {
+    filter: saturate(200%);
+}
+.filtro_sepia {
+    filter: sepia(100%);
+}
+.filtro_opacidad {
+    filter: opacity(50%);
+}
+.filtro_blur {
+    filter: blur(5px);
+}
+.sombra {
+    -webkit-box-shadow: 10px 10px 20px #747474;
+    box-shadow: 10px 10px 20px #747474;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.blanco {
+    color: #FFFFFF;
+}

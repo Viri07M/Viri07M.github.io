@@ -1,0 +1,368 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="CSS/STYLE_PAGE_DOM prueba.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1>Tablas en html</h1>
+  <p>&nbsp;</p>
+  &nbsp;</header>
+<nav>
+  <ul>
+    <li><a href="#mar_1">Tabla desde codigo</a></li>
+    <li><a href="#mar_2">Tabla con estilo CSS y uso de rowspan</a></li>
+    <li><a href="#mar_3">Tabla con cebras en horizontal o filas</a></li>
+    <li><a href="#mar_4">Tabla con cebras en vertical o columnas</a></li>
+    <li><a href="#mar_5">Tabla flotante (hover)</a></li>
+    <li><a href="#mar_6">Tabla receptiva</a></li>
+  </ul>
+</nav>
+<main>
+  <section>
+    <h2 id="mar_1">Tabla desde codigo</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro non repellendus veniam id quibusdam eos fuga tempore aliquid corrupti, ab molestiae laudantium distinctio neque, modi perferendis, deserunt. Modi minus placeat molestias ut provident mollitia sit perspiciatis autem debitis similique, accusantium architecto fugiat nostrum iusto totam eligendi repellat, expedita possimus porro. Suscipit voluptas architecto unde provident vel saepe, similique quis magni, soluta ipsa est odio dignissimos nostrum at. Inventore eaque excepturi suscipit natus deleniti quo dolore id. Aut totam perferendis tempora. Accusamus placeat nulla molestias, animi minus nobis vero laborum fuga sunt nostrum! Quaerat enim ipsam dolorum nulla reiciendis! Nesciunt, illo.o</p>
+	  <table id="tabla_1">
+	  <thead>
+		  <tr>
+		  <th>Nombre</th>
+		  <th>Taller</th>
+		  <th>Email</th>
+		  <th>Cuota de Taller</th>
+		  </tr>
+	    </thead>
+	  <tbody>
+		  <tr>
+		  <td>Carlos Venegas</td>
+		  <td>Serigrafia</td>
+		  <td>carloscat@gmail.com</td>
+		  <td>800</td>
+		  </tr>
+		  <tr>
+		  	<td>Sael Brito</td>
+		  	<td>Fotografia</td>
+		  	<td>sael01@gmail.com</td>
+		  	<td>1200</td>
+		  </tr>
+		  <tr>
+		  	<td>Ramon Vazquez</td>
+		  	<td>Serigrafia</td>
+		  	<td>ramoncito24@hotmail.com</td>
+		  	<td>800</td>
+		  </tr>
+		  <tr>
+		  	<td>Josue Ruiz</td>
+		  	<td>Fotografia</td>
+		  	<td>ruisJ@gmail.cok</td>
+		  	<td>1200</td>
+		  </tr>
+		  <tr>
+		  	<td>Pavel Marquez</td>
+		  	<td>Literatura</td>
+		  	<td>alejandroP@gmail.com</td>
+		  	<td>400</td>
+		  </tr>
+	    </tbody>
+	  <tfoot>
+		  <tr>
+			  <td></td>
+			  <td></td>
+		  <td>Total de inscripcion</td>
+		  <td>4400</td>
+		  </tr>
+	    </tfoot>
+	  </table>
+&nbsp;</section>
+  <section>
+    <h2 id="mar_2">Tabla con estilo CSS y uso de rowspan</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro non repellendus veniam id quibusdam eos fuga tempore aliquid corrupti, ab molestiae laudantium distinctio neque, modi perferendis, deserunt. Modi minus placeat molestias ut provident mollitia sit perspiciatis autem debitis similique, accusantium architecto fugiat nostrum iusto totam eligendi repellat, expedita possimus porro. Suscipit voluptas architecto unde provident vel saepe, similique quis magni, soluta ipsa est odio dignissimos nostrum at. Inventore eaque excepturi suscipit natus deleniti quo dolore id. Aut totam perferendis tempora. Accusamus placeat nulla molestias, animi minus nobis vero laborum fuga sunt nostrum! Quaerat enim ipsam dolorum nulla reiciendis! Nesciunt, illo.o</p>
+    <table id="tabla_2">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Taller</th>
+          <th>Email</th>
+          <th>Cuota de Taller</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Carlos Venegas</td>
+          <td>Serigrafia</td>
+          <td>carloscat@gmail.com</td>
+          <td>800</td>
+        </tr>
+        <tr>
+          <td>Sael Brito</td>
+          <td>Fotografia</td>
+          <td>sael01@gmail.com</td>
+          <td>1200</td>
+        </tr>
+        <tr>
+          <td>Ramon Vazquez</td>
+          <td>Serigrafia</td>
+          <td>ramoncito24@hotmail.com</td>
+          <td>800</td>
+        </tr>
+        <tr>
+          <td>Josue Ruiz</td>
+          <td>Fotografia</td>
+          <td>ruisJ@gmail.cok</td>
+          <td>1200</td>
+        </tr>
+        <tr>
+          <td>Pavel Marquez</td>
+          <td>Literatura</td>
+          <td>alejandroP@gmail.com</td>
+          <td>400</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <!--<td></td>
+          <td></td>-->
+          <td colspan="3" style="background-color: #AAD777; font-weight: bold; color: #456125">Total de inscripcion</td>
+          <td>4400</td>
+        </tr>
+      </tfoot>
+    </table>
+&nbsp;</section>
+<section>
+  <h2 id="mar_3">Tablas con cebras en horizontal o filas</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro non repellendus veniam id quibusdam eos fuga tempore aliquid corrupti, ab molestiae laudantium distinctio neque, modi perferendis, deserunt. Modi minus placeat molestias ut provident mollitia sit perspiciatis autem debitis similique, accusantium architecto fugiat nostrum iusto totam eligendi repellat, expedita possimus porro. Suscipit voluptas architecto unde provident vel saepe, similique quis magni, soluta ipsa est odio dignissimos nostrum at. Inventore eaque excepturi suscipit natus deleniti quo dolore id. Aut totam perferendis tempora. Accusamus placeat nulla molestias, animi minus nobis vero laborum fuga sunt nostrum! Quaerat enim ipsam dolorum nulla reiciendis! Nesciunt, illo.o</p>
+    <table width="100%" border="1" cellspacing="5" id="tabla_3">
+     <thead>
+		  <tr>
+          <th scope="col">Nombre </th>
+          <th scope="col">Correo Electronico</th>
+          <th scope="col"> Telefono</th>
+          <th scope="col">Edad</th>
+          <th scope="col">Deporte </th>
+        </tr>
+	  </thead>
+		<tbody>
+        <tr>
+          <td>Jesus Del Angel </td>
+          <td>delange15@outlook.com</td>
+          <td>2222347856 </td>
+          <td>20</td>
+          <td>Taekwondo</td>
+        </tr>
+        <tr>
+          <td>Josue Ramos</td>
+          <td>ramos7@gmail.com</td>
+          <td>2222500498 </td>
+          <td>21</td>
+          <td>Futbol </td>
+        </tr>
+        <tr>
+          <td>Clemente Garcia </td>
+          <td>garciaC90@hotmail.com </td>
+          <td>2290786512 </td>
+          <td>19</td>
+          <td>Natacion </td>
+        </tr>
+        <tr>
+          <td>Rodrigo Nava</td>
+          <td>rodnav00@gmail.com</td>
+          <td>2314780034</td>
+          <td>21</td>
+          <td>Esgrima </td>
+        </tr>
+      </tbody>
+    </table>
+    &nbsp;</section>
+<section>
+  <h2 id="mar_4">Tablas con cebras en vertical o columna</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro non repellendus veniam id quibusdam eos fuga tempore aliquid corrupti, ab molestiae laudantium distinctio neque, modi perferendis, deserunt. Modi minus placeat molestias ut provident mollitia sit perspiciatis autem debitis similique, accusantium architecto fugiat nostrum iusto totam eligendi repellat, expedita possimus porro. Suscipit voluptas architecto unde provident vel saepe, similique quis magni, soluta ipsa est odio dignissimos nostrum at. Inventore eaque excepturi suscipit natus deleniti quo dolore id. Aut totam perferendis tempora. Accusamus placeat nulla molestias, animi minus nobis vero laborum fuga sunt nostrum! Quaerat enim ipsam dolorum nulla reiciendis! Nesciunt, illo.o</p>
+  <table width="100%" border="1" cellspacing="5" id="tabla_4">
+    <thead>
+      <tr>
+        <th scope="col">Nombre </th>
+        <th scope="col">Correo Electronico</th>
+        <th scope="col"> Telefono</th>
+        <th scope="col">Edad</th>
+        <th scope="col">Deporte </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Jesus Del Angel </td>
+        <td>delange15@outlook.com</td>
+        <td>2222347856 </td>
+        <td>20</td>
+        <td>Taekwondo</td>
+      </tr>
+      <tr>
+        <td>Josue Ramos</td>
+        <td>ramos7@gmail.com</td>
+        <td>2222500498 </td>
+        <td>21</td>
+        <td>Futbol </td>
+      </tr>
+      <tr>
+        <td>Clemente Garcia </td>
+        <td>garciaC90@hotmail.com </td>
+        <td>2290786512 </td>
+        <td>19</td>
+        <td>Natacion </td>
+      </tr>
+      <tr>
+        <td>Rodrigo Nava</td>
+        <td>rodnav00@gmail.com</td>
+        <td>2314780034</td>
+        <td>21</td>
+        <td>Esgrima </td>
+      </tr>
+    </tbody>
+  </table>
+  &nbsp;</section>
+<section>
+  <h2 id="mar_5">Tablas flotante (hover)</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro non repellendus veniam id quibusdam eos fuga tempore aliquid corrupti, ab molestiae laudantium distinctio neque, modi perferendis, deserunt. Modi minus placeat molestias ut provident mollitia sit perspiciatis autem debitis similique, accusantium architecto fugiat nostrum iusto totam eligendi repellat, expedita possimus porro. Suscipit voluptas architecto unde provident vel saepe, similique quis magni, soluta ipsa est odio dignissimos nostrum at. Inventore eaque excepturi suscipit natus deleniti quo dolore id. Aut totam perferendis tempora. Accusamus placeat nulla molestias, animi minus nobis vero laborum fuga sunt nostrum! Quaerat enim ipsam dolorum nulla reiciendis! Nesciunt, illo.o</p>
+  <table width="100%" border="1" cellspacing="5" id="tabla_5">
+    <thead>
+      <tr>
+        <th scope="col">Nombre </th>
+        <th scope="col">Correo Electronico</th>
+        <th scope="col"> Telefono</th>
+        <th scope="col">Edad</th>
+        <th scope="col">Deporte </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Jesus Del Angel </td>
+        <td>delange15@outlook.com</td>
+        <td>2222347856 </td>
+        <td>20</td>
+        <td>Taekwondo</td>
+      </tr>
+      <tr>
+        <td>Josue Ramos</td>
+        <td>ramos7@gmail.com</td>
+        <td>2222500498 </td>
+        <td>21</td>
+        <td>Futbol </td>
+      </tr>
+      <tr>
+        <td>Clemente Garcia </td>
+        <td>garciaC90@hotmail.com </td>
+        <td>2290786512 </td>
+        <td>19</td>
+        <td>Natacion </td>
+      </tr>
+      <tr>
+        <td>Rodrigo Nava</td>
+        <td>rodnav00@gmail.com</td>
+        <td>2314780034</td>
+        <td>21</td>
+        <td>Esgrima </td>
+      </tr>
+    </tbody>
+  </table>
+  &nbsp;</section>
+<section>
+  <h2 id="mar_6">Tablas receptiva</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad reiciendis totam, harum dolorem eveniet ducimus, alias nihil repellendus adipisci quaerat ratione quisquam nostrum neque blanditiis tempora. Corrupti illum necessitatibus quis, quaerat praesentium nihil eaque cumque est reiciendis ab quasi deserunt.</p>
+  <div id="tabla_receptiva">
+    <table border="1" cellspacing="5" id="tabla_6">
+      <tbody>
+        <tr>
+          <th scope="col">Nombre </th>
+          <th scope="col">Puntos </th>
+          <th scope="col">Puntos </th>
+          <th scope="col">Puntos </th>
+          <th scope="col">Puntos </th>
+          <th scope="col">Puntos </th>
+          <th scope="col">Puntos </th>
+          <th scope="col">Puntos </th>
+          <th scope="col">Puntos </th>
+          <th scope="col">Puntos </th>
+          <th scope="col">Puntos </th>
+          <th scope="col">Puntos </th>
+          <th scope="col">Puntos </th>
+          <th scope="col">Puntos </th>
+          <th scope="col">Puntos </th>
+        </tr>
+        <tr>
+          <td>Marisol </td>
+          <td>40 </td>
+          <td>25 </td>
+          <td>36 </td>
+          <td>90 </td>
+          <td>80 </td>
+          <td>78 </td>
+          <td>56 </td>
+          <td>80 </td>
+          <td>90 </td>
+          <td>100 </td>
+          <td>40 </td>
+          <td>50</td>
+          <td>50</td>
+          <td>70 </td>
+        </tr>
+        <tr>
+          <td>Eduardo </td>
+          <td>30 </td>
+          <td>45 </td>
+          <td> 70</td>
+          <td>75 </td>
+          <td>90 </td>
+          <td>80 </td>
+          <td>90 </td>
+          <td>55</td>
+          <td>50</td>
+          <td>30 </td>
+          <td>45 </td>
+          <td>60 </td>
+          <td>70 </td>
+          <td>60 </td>
+        </tr>
+        <tr>
+          <td>Eva </td>
+          <td>50 </td>
+          <td>60 </td>
+          <td>70 </td>
+          <td>75 </td>
+          <td>50 </td>
+          <td>90 </td>
+          <td>70</td>
+          <td>85 </td>
+          <td>80 </td>
+          <td>35 </td>
+          <td>45 </td>
+          <td>55 </td>
+          <td>65 </td>
+          <td>80 </td>
+        </tr>
+        <tr>
+          <td>Charlotte </td>
+          <td>90 </td>
+          <td>75 </td>
+          <td>80 </td>
+          <td>60 </td>
+          <td>90</td>
+          <td>80 </td>
+          <td>85 </td>
+          <td>70</td>
+          <td>65 </td>
+          <td>40 </td>
+          <td>35 </td>
+          <td>90 </td>
+          <td>95 </td>
+          <td>85 </td>
+        </tr>
+      </tbody>
+    </table>
+    &nbsp;</div>
+&nbsp;</section>
+  <footer>
+    <h6>Elaborado por Viridiana Mendoza Urbina</h6>
+  &nbsp;</footer>
+&nbsp;</main>
+</body>
+</html>

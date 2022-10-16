@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="CSS/STYLE_PAGE_DOM prueba.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1>Formularios</h1>
+  &nbsp;</header>
+<nav>
+<ul>
+    <li><a href="#formulario1">Formulario</a></li>
+    <li><a href="#formulario2">Formulario select, checkbox</a></li>
+    <li><a href="#formulario3">Formulario de contecto</a></li>
+  </ul>		
+</nav>
+<main>
+  <section>
+    <h2 id="formulario1">Formulario</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error non dolor porro omnis, earum, sunt nemo delectus architecto rerum sequi dolores quo ducimus iusto minus voluptate, dolore consectetur pariatur! Placeat omnis explicabo mollitia odit amet culpa quos. Reprehenderit, alias, impedit?</p>
+    <form id="form1" name="form1" method="get">
+      <label for="Nombre">Nombre:</label>
+      <input type="text" name="nombre" id="form1input">
+		<br><br>
+      <label for="Apellido">Apellido:</label>
+      <input type="text" name="Apellido" id="Apellido">
+		<br><br>
+      <input type="submit" name="Boton1" id="Boton1" value="Enviar">
+      &nbsp;
+    </form>
+    &nbsp;</section>
+  <section>
+    <h2 id="formulario2">Formulario usando select, checkbox y radiobutton</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error non dolor porro omnis, earum, sunt nemo delectus architecto rerum sequi dolores quo ducimus iusto minus voluptate, dolore consectetur pariatur! Placeat omnis explicabo mollitia odit amet culpa quos. Reprehenderit, alias, impedit?</p>
+    <form id="form2" name="form2" method="get">
+<label for="pais">¿De que pais nos visitas?:</label>
+      <select name="pais" id="pais">
+        <option value="mx">Mexico</option>
+        <option value="us">Estados Unidos</option>
+        <option value="es">España</option>
+        <option value="ar">Argentina</option>
+        <option value="co">Colombia</option>
+        <option value="it">Italia</option>
+      </select>
+		<br><br>
+	  <label>Genero</label>
+	  <p>
+	    <label>
+	      <input type="radio" name="Genero" value="Hombre" id="Genero_0">
+	      <label>Hombre</label>
+        </label>
+	    <br>
+	    <label>
+	      <input type="radio" name="Genero" value="Mujer" id="Genero_1">
+	      <label>Mujer</label>
+        </label>
+	    <br>
+      </p>
+<label>¿Cual sera tu residencia durante tu estancia?</label>
+	  <table width="200">
+		  <tr>
+		    <td><label>
+		      <input type="checkbox" name="Residencia temporal" value="Hotel" id="Residenciatemporal_0">
+		      Hotel</label></td>
+	      </tr>
+		  <tr>
+		    <td><label>
+		      <input type="checkbox" name="Residencia temporal" value="Privado" id="Residenciatemporal_1">
+		      Domicilio de amigos/familia</label></td>
+	      </tr>
+		  <tr>
+		    <td><label>
+		      <input type="checkbox" name="Residencia temporal" value="Airbnb" id="Residenciatemporal_2">
+		      Airbnb</label></td>
+	      </tr>
+	  </table>
+<br><br>
+      <input type="submit" name="Boton2" id="Boton2" value="Enviar">
+      &nbsp;
+    </form>
+  &nbsp;</section>
+  <section>
+    <h2 id="formulario3">Formulario de contacto</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error non dolor porro omnis, earum, sunt nemo delectus architecto rerum sequi dolores quo ducimus iusto minus voluptate, dolore consectetur pariatur! Placeat omnis explicabo mollitia odit amet culpa quos. Reprehenderit, alias, impedit?</p>
+    <form action="PROCESAMIENTO.html" method="post" name="form3" id="form3">
+            
+      <label for="nombre">Nombre:</label>
+      <input name="nombre" type="text" required="required" id="nombre" form="form3">
+      
+      <label for="email">Email:</label>
+      <input name="email" type="email" required="required" id="email" form="form3">
+      <label for="mensaje">Mensaje:</label>
+      <textarea name="mensaje" rows="6" maxlength="150" id="mensaje" placeholder="Escribe tu mensaje..."></textarea>
+      <input type="submit" name="Boton3" id="Boton3" value="Enviar">
+            &nbsp;
+    </form>
+&nbsp;</section>
+&nbsp;</main>
+<footer>
+  <h6>Elaborado por: Viridiana Mendoza Urbina</h6>
+&nbsp;</footer>
+</body>
+</html>
